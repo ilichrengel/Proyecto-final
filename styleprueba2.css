@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    padding-top: 70px;
+    font-family: 'Lancelot', cursive;
+}
+
+a {
+    text-decoration: none; 
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    top: 0;
+    width: 100%;
+    
+    padding: 10px 0;
+    position: fixed;
+    text-align: center;
+}
+
+.custom-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #000;
+    text-decoration: none;
+    
+    font-size: 26px;
+    border-radius: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+    
+.custom-link:hover {
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.links {
+    margin-right: 20px ;
+    padding-top: 30px;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.h {
+    cursor: pointer;
+    margin: 5%;
+    color: rgb(103, 104, 104);
+    
+    
+}
+
+.contenedorI {
+    margin: auto;
+    width: 533px;
+    overflow: hidden;
+    padding-top: 4%;
+    margin: 0 auto;
+   
+    
+    
+}
+
+.carru {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    animation: cambio 20s infinite;
+    
+}
+
+@keyframes cambio {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+.foto {
+    border-radius: 400px;  
+}
+
+.button{
+    display: flex;
+}
+.section-container {
+    background-color:  #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-top: 4%;
+    border-radius: 2%;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .section-content {
+    margin: 20px 0;
+  }
+  
+  .section-buttons {
+    margin: 30px 0;
+  }
+  
+  .section-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 40px; 
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  
+  .section-more {
+    margin-top: 50px;
+  }
+  
+  .section-more p {
+    line-height: 1.6;
+  }
+  
+  
+
+.button1:hover{ background-color: rgb(204, 191, 5);}
+.button2:hover{ background-color: rgb(4, 32, 189);}
+.button3:hover{ background-color: rgb(194, 4, 4);}
+
+.carousel-container {
+    overflow: hidden;
+    width: 700px;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.8s ease;
+}
+
+.carru img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 4%;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  footer img:hover {
+    transform: scale(1.2);
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f39c12;
+  }
+  
+ 
